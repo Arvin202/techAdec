@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Encode Sans SC', sans-serif;
+}
+p,a,input,label,textarea,span,ul,li{
+  font-family: 'Encode Sans SC', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+/*landing page*/
+#landingPage{
+  padding:20px 0 170px 0;
+}
+#landingPage #photo_pc{
+  width: 400px;
+  position: relative;
+  top: -250px;
+  right: -600px;
+}
+#landingPage h1{
+  margin: 150px 0 10px 0;
+}
+#landingPage #inquireBtn{
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  border: 1px #B22222 solid;
+  background-color: #B22222;
+  padding: 8px 8px 8px 8px;
+  transition: 0.5s;
+}
+#landingPage #inquireBtn:hover{
+  background-color: #DC143C;
+  border-color: #DC143C;
+}
+/* aboutUs */
+#aboutUs .box{
+  display: flex;
+}
+#aboutUs .contactInfo{
+  margin-top:50px;
+}
+#aboutUs .contactIcon{
+  width: 50px;
+  position: relative;
+  top: 15px;
+  color: #B22222;
+}
+#aboutUs #profile{
+  margin-top: 50px;
+}
+#aboutUs #why{
+  margin-top: 50px;
+}
+#aboutUs #why .subBody li{
+  list-style: none;
+  display: flex;
+}
+#aboutUs #why .subBody li img{
+  margin-right: 20px;
+}
+#aboutUs #why .subBody li p{
+  position: relative;
+  top:15px;
+}
+/* inquire */
+#Inquiry{
+  padding:30px 0 30px 0;
+}
+#Inquiry .title{
+  margin-bottom: 50px;
+}
